@@ -56,8 +56,8 @@ save_freq: -1 # saving frequency for ckpt. -1 only saving the latest and the bes
 
 visualize: True
 root_dir: log/
-#pretrained_path: /home/deep_cog_sol/Documents/junaid/aerodyne/PointNeXt/examples/segmentation/log/telstra/telstra-train-pointnext-b-ngpus2-seed9045-20220930-100112-4MTUD7FTR5sg5EFGcxqUkA/checkpoint/telstra-train-pointnext-b-ngpus2-seed9045-20220930-100112-4MTUD7FTR5sg5EFGcxqUkA_ckpt_best.pth
-pretrained_path: null
+pretrained_path: /home/deep_cog_sol/Desktop/telstra-train-pointnext-b-ngpus2-seed1102-20221003-101749-npte6F4e2PffzU7gtMPwYx_ckpt_best.pth
+#pretrained_path: null
 
 
 # ---------------------------------------------------------------------------- #

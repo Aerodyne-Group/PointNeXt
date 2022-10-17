@@ -73,7 +73,7 @@ use_voting: False
 # ---------------------------------------------------------------------------- #
 # io and misc
 # ---------------------------------------------------------------------------- #
-log_dir: 'telstra'
+log_dir: 'telco'
 save_freq: 1 # save epoch every xxx epochs, -1 only save last and best.
 val_freq: 1
 

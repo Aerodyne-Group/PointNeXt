@@ -10,7 +10,7 @@ from ..build import DATASETS
 
 
 @DATASETS.register_module()
-class TELSTRA(Dataset):
+class TELCO(Dataset):
     classes = ['antenna', 'transceiver_junction', 'head_frame_mount', 'shelter', 'background']
     num_classes = 5
     # num_per_class = np.array([41682, 4560, 18015, 118050, 3346605], dtype=np.int32)
