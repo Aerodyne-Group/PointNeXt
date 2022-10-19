@@ -15,12 +15,12 @@ module load gcc
 # download openpoints
 git submodule update --init --recursive
 
-# install PyTorch
-conda deactivate
-conda env remove --name openpoints
-conda create -n openpoints -y python=3.7 numpy=1.20 numba
-conda activate openpoints
-
+## install PyTorch
+#conda deactivate
+#conda env remove --name openpoints
+#conda create -n openpoints -y python=3.7 numpy=1.20 numba
+#conda activate openpoints
+#
 # #NOTE: 'nvidia' channel is required for cudatoolkit 11.1 with pytorch version 1.10.x
 conda install -y pytorch=1.10.1 torchvision cudatoolkit=11.1 -c pytorch -c nvidia
 
